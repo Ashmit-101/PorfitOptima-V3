@@ -1,0 +1,4 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+*.json filter=lfs diff=lfs merge=lfs -text
+server/backend_src/price_api/models/*.json filter=lfs diff=lfs merge=lfs -text

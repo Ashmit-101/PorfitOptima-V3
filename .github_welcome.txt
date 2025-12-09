@@ -1,0 +1,43 @@
+╔════════════════════════════════════════════════════════════╗
+║                                                            ║
+║         🚀 Welcome to ProfitOptima! 🚀                     ║
+║                                                            ║
+║    AI-Powered Pricing Optimization Platform                ║
+║                                                            ║
+╚════════════════════════════════════════════════════════════╝
+
+📖 New here? Start with these files:
+
+   1️⃣  QUICKSTART.md     → Complete setup guide
+   2️⃣  CHEATSHEET.md     → Quick command reference  
+   3️⃣  PROJECT_SETUP.md  → What's been configured
+
+⚡ Quick Start (3 commands):
+
+   ./setup.sh       # Install everything
+   nano .env        # Add your API keys
+   ./start.sh       # Start all services
+
+🎯 Or use npm:
+
+   npm run setup
+   npm run start:all
+
+📝 Available Scripts:
+
+   ./setup.sh   - Install all dependencies
+   ./start.sh   - Start all 4 services
+   ./stop.sh    - Stop all services
+   ./dev.sh     - Development mode (live output)
+   ./check.sh   - Health check
+
+🌐 Services:
+
+   Frontend:        http://localhost:3000
+   Backend API:     http://localhost:5000
+   Pricing Worker:  Background process
+   Scraper Worker:  Background process
+
+💡 Pro Tip: Run ./check.sh to verify your setup!
+
+Happy coding! 🎉
